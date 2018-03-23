@@ -734,3 +734,12 @@ headers: { 'Access-Control-Allow-Origin': '*' }
 pid: 7784
 hostname: YANFA-020
 
+2018-03-23 12:54:01,535 ERROR 7956 nodejs.ClusterClientNoResponseError: client no response in 1795283ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\learn\egg\learn\node_modules\_cluster-client@1.7.1@cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 7956
+hostname: YANFA-020
+

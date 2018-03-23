@@ -11,5 +11,7 @@ module.exports = app => {
     router.post('/userget',controller.posts.userget)
     router.get('/',report, controller.home.index);
     router.resources('banner','/api/banner',controller.banner);
+    router.resources('category','/api/category',controller.category);
+    router.resources('goods','/api/goods',controller.goods);
 
 };
